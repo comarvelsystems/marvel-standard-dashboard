@@ -1,0 +1,73 @@
+body,
+* {
+  text-align: right;
+}
+
+.sidebar {
+  right: 0;
+  left: auto;
+}
+
+.main-panel {
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .navbar-header {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-left {
+    float: right !important;
+    margin-right: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-right {
+    float: left !important;
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li {
+    float: right;
+  }
+}
+
+.dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav > li > .dropdown-menu:before {
+    left: auto;
+    right: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav > li > .dropdown-menu:after {
+    left: auto;
+    right: 12px;
+  }
+}
+
+.sidebar .nav i {
+  font-size: 28px;
+  float: right;
+  margin-right: auto;
+  margin-left: 15px;
+}
+
+.btn-info.btn-fill {
+  float: left !important;
+}
+
+form {
+  direction: rtl;
+}
